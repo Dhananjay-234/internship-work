@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESP32 Smart Home Dashboard</title>
+    <meta http-equiv="refresh" content="2">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>🏠 Smart Home Dashboard</h1>
+
+<div class="card">RFID Access: <span>{{ data.rfid }}</span></div>
+<div class="card">Gas Status: <span>{{ data.gas }}</span></div>
+<div class="card">Temperature: <span>{{ data.temperature }} °C</span></div>
+<div class="card">Fan Status: <span>{{ data.fan }}</span></div>
+<div class="card">LDR Value: <span>{{ data.ldr }}</span></div>
+<div class="card">LED Status: <span>{{ data.led }}</span></div>
+<div class="card">Ultrasonic Distance: <span>{{ data.ultrasonic }} cm</span></div>
+<div class="card">Rain Value: <span>{{ data.rain_value }}</span></div>
+<div class="card">Rain Status: <span>{{ data.rain_status }}</span></div>
+
+</body>
+</html>

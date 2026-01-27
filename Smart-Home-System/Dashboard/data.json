@@ -1,0 +1,11 @@
+{
+  "rfid": "Waiting",
+  "gas": "Safe",
+  "temperature": 0,
+  "fan": "OFF",
+  "ldr": 0,
+  "led": "OFF",
+  "ultrasonic": 0,
+  "rain_value": 0,
+  "rain_status": "No Rain"
+}
